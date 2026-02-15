@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pissay FitTech - Plateforme B2B Fitness IA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; overflow-x: hidden; background: #0a0a0a; color: #fff; }
+        
+        /* Hero Section */
+        .hero {
+            height: 100vh; position: relative; display: flex; align-items: center; justify-content: center; text-align: center; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #00d4ff 100%); overflow: hidden;
+        }
+        .hero::before {
+            content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><radialGradient id="g" cx="50%" cy="50%"><stop offset="0%" stop-color="%23ffffff11"/><stop offset="50%" stop-color="%23ffffff00"/></radialGradient></defs><circle cx="20" cy="20" r="2" fill="url(%23g)"><animate attributeName="r" values="2;3;2" dur="3s" repeatCount="indefinite"/></circle><circle cx="80" cy="80" r="1.5" fill="url(%23g)"><animate attributeName="r" values="1.5;2.5;1.5" dur="4s" repeatCount="indefinite"/></circle></svg>') repeat; animation: float 20s infinite linear;
+        }
+        @keyframes float { 0% { transform: translateY(0); } 50% { transform: translateY(-20px); } 100% { transform: translateY(0); } }
+        .hero-content { z-index: 2; max-width: 800px; padding: 0 20px; animation: fadeInUp 1s ease-out; }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(50px); } to { opacity: 1; transform: translateY(0); } }
+        .hero h1 { font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 700; margin-bottom: 1rem; background: linear-gradient(45deg, #fff, #00d4ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero p { font-size: 1.3rem; margin-bottom: 2rem; opacity: 0.9; }
+        .cta { display: inline-block; padding: 1rem 2.5rem; background: linear-gradient(45deg, #00d4ff, #0099cc); border: none; border-radius: 50px; font-size: 1.1rem; font-weight: 600; color: #0a0a0a; text-decoration: none; transition: all 0.3s; box-shadow: 0 10px 30px rgba(0,212,255,0.4); }
+        .cta:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,212,255,0.6); }
+
+        /* Features */
+        .features { padding: 100px 20px; max-width: 1200px; margin: 0 auto; }
+        .features h2 { text-align: center; font-size: 3rem; margin-bottom: 4rem; background: linear-gradient(45deg, #fff, #00d4ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .card { background: rgba(255,255,255,0.05); backdrop-filter: blur(20px); border-radius: 20px; padding: 2.5rem; text-align: center; transition: all 0.4s; border: 1px solid rgba(0,212,255,0.2); }
+        .card:hover { transform: translateY(-15px); background: rgba(0,212,255,0.1); box-shadow: 0 30px 60px rgba(0,212,255,0.3); }
+        .card-icon { font-size: 4rem; background: linear-gradient(45deg, #00d4ff, #0099cc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 1rem; }
+        .card h3 { font-size: 1.5rem; margin-bottom: 1rem; }
+
+        /* Stats */
+        .stats { background: rgba(0,0,0,0.5); padding: 80px 20px; text-align: center; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto; }
+        .stat { font-size: 3rem; font-weight: 700; color: #00d4ff; margin-bottom: 0.5rem; animation: countUp 2s ease-out; }
+
+        /* Footer CTA */
+        .footer-cta { padding: 80px 20px; text-align: center; background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); }
+        .footer-cta h2 { font-size: 2.5rem; margin-bottom: 1rem; }
+        .footer-cta p { font-size: 1.2rem; margin-bottom: 2rem; }
+
+        @media (max-width: 768px) { .hero h1 { font-size: 2.5rem; } .features { padding: 60px 20px; } }
+    </style>
+</head>
+<body>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>FitTech Révolution B2B</h1>
+            <p>Plateforme IA pour coaches et kinés : tracking avancé, plans personnalisés, analytics pros. Optimisez vos clients comme jamais.</p>
+            <a href="#demo" class="cta">Démo Gratuite</a>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <h2>Technologies de Pointe</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-icon">📊</div>
+                <h3>Analytics IA</h3>
+                <p>Insights en temps réel sur performances et progrès clients.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🤖</div>
+                <h3>Plans Auto-Générés</h3>
+                <p>IA crée programmes fitness sur mesure en secondes.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">📱</div>
+                <h3>App Multi-Plateforme</h3>
+                <p>Web, iOS, Android pour coaches et athlètes.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🔒</div>
+                <h3>GDPR Compliant</h3>
+                <p>Sécurité données pros, conforme UE/France/Chad.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="stats-grid">
+            <div>
+                <div class="stat" data-target="500+">0</div>
+                <p>Coaches Actifs</p>
+            </div>
+            <div>
+                <div class="stat" data-target="10K+">0</div>
+                <p>Plans Créés</p>
+            </div>
+            <div>
+                <div class="stat" data-target="98%">0%</div>
+                <p>Satisfaction</p>
+            </div>
+            <div>
+                <div class="stat" data-target="24/7">0</div>
+                <p>Support</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <section class="footer-cta">
+        <h2>Prêt à Transformer Votre Pratique ?</h2>
+        <p>Contactez Pissay Technologies dès aujourd'hui.</p>
+        <a href="#contact" class="cta">Commencer</a>
+    </section>
+
+    <script>
+        // Animations stats
+        const stats = document.querySelectorAll('.stat');
+        const animateStats = () => {
+            stats.forEach(stat => {
+                const target = parseFloat(stat.dataset.target.replace(/[^0-9.-]+/g,""));
+                const increment = target / 100;
+                let current = 0;
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        stat.textContent = stat.dataset.target;
+                        clearInterval(timer);
+                    } else {
+                        stat.textContent = Math.floor(current) + (target.includes('%') ? '%' : '+');
+                    }
+                }, 20);
+            });
+        };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => { if (entry.isIntersecting) { animateStats(); observer.unobserve(entry.target); } });
+        });
+        document.querySelector('.stats').observe(observer);
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+[26-Jul-2025 14:25:50 UTC] Home directory set to: /home/soukwxeu
+[26-Jul-2025 14:25:50 UTC] Binary directory: /home/soukwxeu/bin, Manager path: /home/soukwxeu/bin/ssl-manager
+[26-Jul-2025 14:25:50 UTC] API Base URL: https://externalautossl.service.spaceship.com/api/v1/externalautossl/user
+[26-Jul-2025 14:25:50 UTC] Download URL: https://ssl-manager.s3.amazonaws.com/bin/ssl-manager
+[26-Jul-2025 14:25:53 UTC] Home directory set to: /home/soukwxeu
+[26-Jul-2025 14:25:53 UTC] Binary directory: /home/soukwxeu/bin, Manager path: /home/soukwxeu/bin/ssl-manager
+[26-Jul-2025 14:25:53 UTC] API Base URL: https://externalautossl.service.spaceship.com/api/v1/externalautossl/user
+[26-Jul-2025 14:25:53 UTC] Download URL: https://ssl-manager.s3.amazonaws.com/bin/ssl-manager
+[26-Jul-2025 14:25:53 UTC] Action received: install
+[26-Jul-2025 14:25:53 UTC] Install action initiated.
+[26-Jul-2025 14:25:53 UTC] Downloading manager binary from https://ssl-manager.s3.amazonaws.com/bin/ssl-manager
+[26-Jul-2025 14:25:53 UTC] Trying file_get_contents method
+[26-Jul-2025 14:25:54 UTC] Downloaded manager binary using file_get_contents
+[26-Jul-2025 14:25:54 UTC] Manager installed successfully.
+[26-Jul-2025 14:25:54 UTC] Fetching manager info.
+[26-Jul-2025 14:25:54 UTC] Running command: /home/soukwxeu/bin/ssl-manager info 2>/dev/null
+[26-Jul-2025 14:25:54 UTC] Manager info: Error: Could not get control panel credentials
+{"error": "Error: panel credentials not found"}
+
+[26-Jul-2025 14:25:59 UTC] Home directory set to: /home/soukwxeu
+[26-Jul-2025 14:25:59 UTC] Binary directory: /home/soukwxeu/bin, Manager path: /home/soukwxeu/bin/ssl-manager
+[26-Jul-2025 14:25:59 UTC] API Base URL: https://externalautossl.service.spaceship.com/api/v1/externalautossl/user
+[26-Jul-2025 14:25:59 UTC] Download URL: https://ssl-manager.s3.amazonaws.com/bin/ssl-manager
+[26-Jul-2025 14:25:59 UTC] Action received: register
+[26-Jul-2025 14:25:59 UTC] Running command: /home/soukwxeu/bin/ssl-manager register -t 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjFkNmlmTUlzRlpTcU5GTzdkWDBkeTltanBqX21qX1NnZ084bng2ektQTHcifQ.eyJpc3MiOiJodHRwczovL2V4dGVybmFsYXV0b3NzbC5zZXJ2aWNlLnNwYWNlc2hpcC5jb20iLCJuYmYiOjE3NTM1Mzk3NjQsImlhdCI6MTc1MzUzOTc2NCwiZXhwIjoxNzUzNjI2MTY0LCJhdWQiOlsiZXh0ZXJuYWxhdXRvc3NsIl0sInNjb3BlIjpbImV4dGVybmFsYXV0b3NzbC5leHRlcm5hbGF1dG9zc2wiLCJleHRlcm5hbGF1dG9zc2wudXNlci1pbnRlZ3JhdGlvbi1jcmVhdGUiXSwiY2xpZW50X2lkIjoiZXh0ZXJuYWwtc3NsLWNsaWVudCIsInN1YiI6IjQyNWZkMjA2LWYxMDQtNDIwMS1iYzVhLTc0OWZmZmQyNTVkNCJ9.BRU-iRu2_WnNCuOa9HBTh4uD_qutbUjJo8_EdKkPeUVXKTsyIthsfj5lV6kYRrcteKdRH4-xXdfQSIN4pW3qr_8hnPyRDU2VU3hKg-Wzg6-yV_b26QH1TabUyYZt5CT5u7d9YGMvnHqgFBM2jJyYLG5gFkicko9WcrJeOACiQKwxvVWZ89cQgiHjVv4LcsNVbS_H3YVYZIVMJlTbBA8ddxbKRCdd7sCy9E_qd2KA7-ijuyrPH1s0uhuvwV0y7Fljp9nF0_roiMbQnPfPhps8bNQARBVGjT1H2GBlbQvqH1bI-VweOPO2FMh97Tf-LAIAw1zF5iRPK5-7Trj4L57fmg' -u 'https://externalautossl.service.spaceship.com/api/v1/externalautossl/user/' 2>&1
+[26-Jul-2025 14:26:03 UTC] Registration output: Installing certificate manager
+Vendor registered successfully
+Integrated with control panel successfully
+Setting up cron job
+
+[26-Jul-2025 14:26:03 UTC] Fetching manager info.
+[26-Jul-2025 14:26:03 UTC] Running command: /home/soukwxeu/bin/ssl-manager info 2>/dev/null
+[26-Jul-2025 14:26:03 UTC] Manager info: Control panel credentials found
+Vendor credentials found
+Manager is ready
+

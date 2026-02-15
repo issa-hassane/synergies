@@ -45,10 +45,10 @@
 }
 
 .dark-background {
-  --background-color: #1e4356;
+  --background-color: #c21010bd;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #284e62;
+  --surface-color: #c21010bd;
   --contrast-color: #ffffff;
 }
 
@@ -237,7 +237,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 32px;
+  max-height: 100px;
   margin-right: 8px;
 }
 
@@ -251,7 +251,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: #1e4356;
+  --background-color: #c21010bd;
 }
 
 /*--------------------------------------------------------------
@@ -857,7 +857,14 @@ section,
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, color-mix(in srgb, var(--background-color), transparent 90%), var(--background-color)), url("../img/hero-bg.jpg") center top no-repeat;
+  /*background: linear-gradient(to right, color-mix(in srgb, var(--background-color), transparent 90%), var(--background-color));*/
+  background: 
+    linear-gradient(135deg, 
+      color-mix(in srgb, #910505, transparent 80%), 
+      #0606cf
+    );
+
+
   background-size: cover;
   z-index: 0;
   border-radius: 0 0 50% 50%;
