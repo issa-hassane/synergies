@@ -26,6 +26,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/product-modal.css" rel="stylesheet">
 
 
 </head>
@@ -170,10 +171,11 @@
                 <img src="assets/img/ideahub-S.png" class="img-fluid" alt="">
               </div>
               <div class="details">
-                <a href="service-details.html" class="stretched-link">
-                  <h3>IdeaHub-S</h3>
+                <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#modal-s2">
+                  <h3>IdeaHub S2</h3>
                 </a>
-                <p>Conférence vidéo sur site, réunion dans le cloud par BYOM ou OPS, suivi vocal à 3m, cadrage automatique, baffle acoustique, Wi-Fi 6 pour projection directe, double miroir et contrôle, multi-fenêtres</p>
+                <p><strong>Le Vaisseau Amiral Haut de Gamme</strong><br>
+                Idéal pour les bureaux de direction et les salles nécessitant une sécurité maximale. Le seul modèle supportant la visioconférence sur site nativement.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -184,10 +186,11 @@
                 <img src="assets/img/ideaHub-B3.png" class="img-fluid" alt="">
               </div>
               <div class="details">
-                <a href="service-details.html" class="stretched-link">
-                  <h3>IdeaHub-B3</h3>
+                <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#modal-b3">
+                  <h3>IdeaHub B3</h3>
                 </a>
-                <p>Réunion en cloud via BYOM ou OPS, Suivi vocal jusqu'à 3 m, Cadre automatique, Wi-Fi 6 pour projection directe, Miroir double et contrôle, Multi-fenêtres</p>
+                <p><strong>Le Standard Professionnel</strong><br>
+                Parfait pour les réunions régulières et les formations. Idéal pour les réunions Cloud (Zoom, Teams) avec des fonctionnalités AI avancées.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -198,10 +201,11 @@
                 <img src="assets/img/ideaHub-B2.png" class="img-fluid" alt="">
               </div>
               <div class="details">
-                <a href="service-details.html" class="stretched-link">
-                  <h3>IdeaHub-B2</h3>
+                <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#modal-b2">
+                  <h3>IdeaHub B2</h3>
                 </a>
-                <p>Réunion en cloud via OPS, Écriture à faible latence (25 ms), Projection Dual-Wi-Fi.</p>
+                <p><strong>L'Entrée de Gamme Efficace</strong><br>
+                Une solution rentable pour les PME et les espaces ouverts. Simplicité et efficacité pour vos réunions Cloud.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -212,11 +216,11 @@
                 <img src="assets/img/ideahub-Bord-2.png" class="img-fluid" alt="">
               </div>
               <div class="details">
-                <a href="service-details.html" class="stretched-link">
-                  <h3>IdeaHub-Board-2</h3>
+                <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#modal-board2">
+                  <h3>IdeaHub Board 2</h3>
                 </a>
-                <p>Écran 4K à lumière douce, Écriture à faible latence (25 ms), Projection Dual-Wi-Fi.</p>
-                <a href="service-details.html" class="stretched-link"></a>
+                <p><strong>Spécial Éducation</strong><br>
+                Un écran interactif pur pour les salles de classe et la formation. Écran 4K avec protection oculaire avancée.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -226,6 +230,341 @@
       </div>
 
     </section><!-- /Services Section -->
+
+    <!-- Comparison Table Section -->
+    <section id="comparison" class="section comparison-section">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Comparaison des Modèles</h2>
+          <p>Trouvez le modèle IdeaHub qui correspond parfaitement à vos besoins.</p>
+        </div>
+        <div class="table-responsive">
+          <table class="table comparison-table text-center align-middle">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Caractéristique</th>
+                <th style="width: 20%;">IdeaHub S2</th>
+                <th style="width: 20%;">IdeaHub B3</th>
+                <th style="width: 20%;">IdeaHub B2</th>
+                <th style="width: 20%;">IdeaHub Board 2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start ps-4">Positionnement</th>
+                <td><span class="badge bg-dark">Flagship</span></td>
+                <td><span class="badge bg-primary">Business</span></td>
+                <td><span class="badge bg-success">Entrée</span></td>
+                <td><span class="badge bg-warning text-dark">Éducation</span></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start ps-4">Type de Réunion</th>
+                <td><strong>On-Premises</strong><br><small class="text-muted">& Cloud</small></td>
+                <td><strong>Cloud</strong><br><small class="text-muted">BYOM/OPS</small></td>
+                <td><strong>Cloud</strong><br><small class="text-muted">OPS Required</small></td>
+                <td><strong>Local</strong><br><small class="text-muted">Interactive</small></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start ps-4">Caméra 4K</th>
+                <td><i class="bi bi-check-circle-fill check-yes"></i><br><small>+ Cache Privé</small></td>
+                <td><i class="bi bi-check-circle-fill check-yes"></i></td>
+                <td><i class="bi bi-check-circle-fill check-yes"></i></td>
+                <td><i class="bi bi-dash-circle text-muted"></i></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start ps-4">Portée Micro</th>
+                <td>12 Mètres</td>
+                <td>10 Mètres</td>
+                <td>10 Mètres</td>
+                <td><i class="bi bi-dash-circle text-muted"></i></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start ps-4">Suivi AI (Voix)</th>
+                <td><i class="bi bi-check-circle-fill check-yes"></i></td>
+                <td><i class="bi bi-check-circle-fill check-yes"></i></td>
+                <td><i class="bi bi-x-circle-fill check-no"></i></td>
+                <td><i class="bi bi-x-circle-fill check-no"></i></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start ps-4">Système</th>
+                <td>HarmonyOS</td>
+                <td>HarmonyOS</td>
+                <td>Android</td>
+                <td>Android</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accessories Section -->
+    <section id="accessories" class="section light-background" style="padding-top: 80px; padding-bottom: 80px;">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Accessoires Essentiels</h2>
+          <p>Complétez votre expérience IdeaHub avec ces accessoires recommandés.</p>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="accessory-card">
+              <div class="accessory-icon-wrapper">
+                <i class="bi bi-usb-plug"></i>
+              </div>
+              <h3 class="accessory-title">IdeaShare Key</h3>
+              <p class="accessory-text">Un dongle USB (Type-A ou Type-C) pour une projection en un clic sans installation de logiciel. Idéal pour le partage rapide et sécurisé de contenu lors de vos réunions.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="accessory-card">
+              <div class="accessory-icon-wrapper">
+                <i class="bi bi-easel2"></i>
+              </div>
+              <h3 class="accessory-title">Support Roulant</h3>
+              <p class="accessory-text">Support blanc élégant avec freins, compatible avec les modèles 65", 75" et 86". Offre une mobilité totale à votre écran pour reconfigurer vos espaces instantanément.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="accessory-card">
+              <div class="accessory-icon-wrapper">
+                <i class="bi bi-cpu"></i>
+              </div>
+              <h3 class="accessory-title">Module OPS</h3>
+              <p class="accessory-text">Module PC insérable (i5 ou i7) pour exécuter Windows complet directement sur l'IdeaHub. Transforme votre écran en un ordinateur puissant sans câbles visibles.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modals -->
+    <!-- Modal S2 -->
+    <!-- Modal S2 -->
+    <div class="modal fade product-modal" id="modal-s2" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">HUAWEI IdeaHub S2</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="product-image-container">
+              <img src="assets/img/ideahub-S.png" alt="IdeaHub S2" class="img-fluid">
+            </div>
+
+            <h4 class="product-subtitle">Le Vaisseau Amiral Haut de Gamme</h4>
+            <p class="product-description">
+              Idéal pour les bureaux de direction et les salles nécessitant une sécurité maximale. C'est le seul modèle qui supporte nativement les protocoles de visioconférence sur site (SIP/H.323).
+            </p>
+
+            <div class="specs-container">
+              <div class="spec-box">
+                <i class="bi bi-camera-video spec-icon"></i>
+                <span class="spec-label">Caméra</span>
+                <span class="spec-value">4K + Cache</span>
+              </div>
+              <div class="spec-box">
+                <i class="bi bi-mic spec-icon"></i>
+                <span class="spec-label">Audio</span>
+                <span class="spec-value">12 Mètres</span>
+              </div>
+              <div class="spec-box">
+                <i class="bi bi-cpu spec-icon"></i>
+                <span class="spec-label">OS</span>
+                <span class="spec-value">HarmonyOS</span>
+              </div>
+              <div class="spec-box">
+                <i class="bi bi-stars spec-icon"></i>
+                <span class="spec-label">IA</span>
+                <span class="spec-value">Suivi Vocal</span>
+              </div>
+            </div>
+
+            <h6 class="fw-bold mb-3">Fonctionnalités Clés</h6>
+            <ul class="feature-list">
+              <li><strong>Sécurité Maximale:</strong> Conçu pour les environnements exigeants.</li>
+              <li><strong>Barrière Acoustique:</strong> Bloque les bruits extérieurs à la zone de réunion.</li>
+              <li><strong>Projection Directe:</strong> Wi-Fi 6 sans dongle nécessaire.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            <button type="button" class="btn btn-primary">Demander un Devis</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal B3 -->
+    <!-- Modal B3 -->
+    <div class="modal fade product-modal" id="modal-b3" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">HUAWEI IdeaHub B3</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="product-image-container">
+              <img src="assets/img/ideahub-B3.png" alt="IdeaHub B3" class="img-fluid">
+            </div>
+
+            <h4 class="product-subtitle">Le Standard Professionnel</h4>
+            <p class="product-description">
+              Parfait pour les réunions régulières et les formations. Idéal pour les réunions Cloud (Zoom, Teams, Webex) via BYOM ou un module OPS.
+            </p>
+
+            <div class="specs-container">
+              <div class="spec-box">
+                <i class="bi bi-camera-video spec-icon"></i>
+                <span class="spec-label">Caméra</span>
+                <span class="spec-value">4K Pro</span>
+              </div>
+              <div class="spec-box">
+                <i class="bi bi-mic spec-icon"></i>
+                <span class="spec-label">Audio</span>
+                <span class="spec-value">10 Mètres</span>
+              </div>
+              <div class="spec-box">
+                <i class="bi bi-cpu spec-icon"></i>
+                <span class="spec-label">OS</span>
+                <span class="spec-value">HarmonyOS</span>
+              </div>
+              <div class="spec-box">
+                <i class="bi bi-stars spec-icon"></i>
+                <span class="spec-label">IA</span>
+                <span class="spec-value">Suivi Vocal</span>
+              </div>
+            </div>
+
+            <h6 class="fw-bold mb-3">Fonctionnalités Clés</h6>
+            <ul class="feature-list">
+              <li><strong>Cloud Meeting Ready:</strong> Optimisé pour Zoom, Teams, Webex.</li>
+              <li><strong>BYOM:</strong> Partage sans fil et contrôle de la réunion.</li>
+              <li><strong>Double Miroir:</strong> Contrôle bidirectionnel du contenu.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            <button type="button" class="btn btn-primary">Demander un Devis</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal B2 -->
+    <!-- Modal B2 -->
+    <div class="modal fade product-modal" id="modal-b2" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">HUAWEI IdeaHub B2</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="product-image-container">
+              <img src="assets/img/ideahub-B2.png" alt="IdeaHub B2" class="img-fluid">
+            </div>
+
+            <h4 class="product-subtitle">L'Entrée de Gamme Efficace</h4>
+            <p class="product-description">
+              Une solution rentable pour les PME et les espaces ouverts. Offre l'essentiel pour vos réunions Cloud avec simplicité et efficacité.
+            </p>
+
+            <div class="specs-container">
+              <div class="spec-box">
+                <i class="bi bi-camera-video spec-icon"></i>
+                <span class="spec-label">Caméra</span>
+                <span class="spec-value">4K Standard</span>
+              </div>
+              <div class="spec-box">
+                <i class="bi bi-mic spec-icon"></i>
+                <span class="spec-label">Audio</span>
+                <span class="spec-value">10 Mètres</span>
+              </div>
+              <div class="spec-box">
+                <i class="bi bi-cpu spec-icon"></i>
+                <span class="spec-label">OS</span>
+                <span class="spec-value">Android</span>
+              </div>
+              <div class="spec-box">
+                <i class="bi bi-slash-circle spec-icon text-muted"></i>
+                <span class="spec-label">IA</span>
+                <span class="spec-value text-muted">Non-Inclus</span>
+              </div>
+            </div>
+
+            <h6 class="fw-bold mb-3">Fonctionnalités Clés</h6>
+            <ul class="feature-list">
+              <li><strong>Rentabilité:</strong> Le meilleur rapport qualité/prix pour les petites salles.</li>
+              <li><strong>Projection Facile:</strong> Double Wi-Fi pour une connexion stable.</li>
+              <li><strong>OPS Ready:</strong> Évolutif vers Windows si nécessaire.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            <button type="button" class="btn btn-primary">Demander un Devis</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Board 2 -->
+    <!-- Modal Board 2 -->
+    <div class="modal fade product-modal" id="modal-board2" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">HUAWEI IdeaHub Board 2</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="product-image-container">
+              <img src="assets/img/ideahub-Bord-2.png" alt="IdeaHub Board 2" class="img-fluid">
+            </div>
+
+            <h4 class="product-subtitle">Spécial Éducation</h4>
+            <p class="product-description">
+              Un écran interactif pur conçu pour les salles de classe intelligentes. Notez qu'il ne dispose pas de caméra ou de micro intégrés, favorisant l'interactivité locale.
+            </p>
+
+            <div class="specs-container">
+              <div class="spec-box">
+                <i class="bi bi-display spec-icon"></i>
+                <span class="spec-label">Écran</span>
+                <span class="spec-value">4K Soft Light</span>
+              </div>
+              <div class="spec-box">
+                <i class="bi bi-shield-check spec-icon"></i>
+                <span class="spec-label">Protection</span>
+                <span class="spec-value">Anti-Lumière Bleue</span>
+              </div>
+              <div class="spec-box">
+                <i class="bi bi-cpu spec-icon"></i>
+                <span class="spec-label">OS</span>
+                <span class="spec-value">Android</span>
+              </div>
+              <div class="spec-box">
+                <i class="bi bi-pencil spec-icon"></i>
+                <span class="spec-label">Latence</span>
+                <span class="spec-value">25ms</span>
+              </div>
+            </div>
+
+            <h6 class="fw-bold mb-3">Fonctionnalités Clés</h6>
+            <ul class="feature-list">
+              <li><strong>Santé Oculaire:</strong> Certification TUV Rheinland pour les étudiants.</li>
+              <li><strong>Interactivité:</strong> Multi-touch réactif pour la collaboration.</li>
+              <li><strong>Polyvalence:</strong> Compatible Windows via OPS.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            <button type="button" class="btn btn-primary">Demander un Devis</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </main>
 
