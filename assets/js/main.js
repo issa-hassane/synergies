@@ -163,6 +163,42 @@
     });
   });
 
+
+
+  
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('.service-link');
+    const contents = document.querySelectorAll('.service-content');
+
+    links.forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // enlever l'état actif sur tous les liens
+        links.forEach(l => l.classList.remove('active'));
+        this.classList.add('active');
+
+        // cacher tout le contenu
+        contents.forEach(c => c.classList.add('d-none'));
+
+        // afficher le bon contenu
+        const target = this.getAttribute('data-target');         // ex: "marketing"
+        const bloc = document.getElementById('content-' + target);
+        if (bloc) bloc.classList.remove('d-none');
+      });
+    });
+  });
+
+
+
+
+
+
+
+
+
+
+
   /**
    * Init isotope layout and filters
    */
