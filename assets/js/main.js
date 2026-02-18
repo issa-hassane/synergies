@@ -46,6 +46,16 @@
 
   });
 
+
+  function openPDF(pdfPath) {
+    // Afficher le PDF dans l'iframe
+    document.getElementById('pdfViewer').src = pdfPath;
+    
+    // Lier le bouton de téléchargement
+    document.getElementById('downloadBtn').href = pdfPath;
+    document.getElementById('downloadBtn').download = pdfPath.split('/').pop();
+  }
+
   /**
    * Toggle mobile nav dropdowns
    */
