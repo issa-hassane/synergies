@@ -17,24 +17,24 @@
   --nav-font: "Poppins",  sans-serif;
 }
 
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+/* Global Colors - Aligned with GSS brand logo */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #555555; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #1e4356; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #797FBB; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --background-color: #ffffff;
+  --default-color: #4B5E73;
+  --heading-color: #1B3A5C;
+  --accent-color: #8B2332;
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff;
 }
 
-/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+/* Nav Menu Colors - Aligned with GSS brand */
 :root {
-  --nav-color: #ffffff;  /* The default color of the main navmenu links */
-  --nav-hover-color: #300303; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #555555; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #68a4c4; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #ffffff;
+  --nav-hover-color: #D4A017;
+  --nav-mobile-background-color: #ffffff;
+  --nav-dropdown-background-color: #ffffff;
+  --nav-dropdown-color: #4B5E73;
+  --nav-dropdown-hover-color: #8B2332;
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -45,10 +45,11 @@
 }
 
 .dark-background {
-  --background-color: #797FBB;
+  --background-color: #1B3A5C;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #797FBB;
+  --accent-color: #D4A017;
+  --surface-color: #1B3A5C;
   --contrast-color: #ffffff;
 }
 
@@ -91,7 +92,7 @@ h6 {
 ------------------------------*/
 .php-email-form .error-message {
   display: none;
-  background: #104A76;
+  background: #8B2332;
   color: #ffffff;
   text-align: left;
   padding: 15px;
@@ -251,7 +252,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: #797FBB;
+  --background-color: #0F2640;
 }
 
 /*--------------------------------------------------------------
@@ -499,6 +500,12 @@ h6 {
   background-color: var(--background-color);
   font-size: 14px;
   position: relative;
+}
+
+.footer.dark-background {
+  --background-color: #0f172a;
+  --surface-color: #1e293b;
+  background: linear-gradient(180deg, #0f172a 0%, #030712 100%);
 }
 
 .footer .footer-newsletter {
@@ -857,14 +864,11 @@ section,
   top: 0;
   width: 130%;
   height: 95%;
-  /*background: linear-gradient(to right, color-mix(in srgb, var(--background-color), transparent 90%), var(--background-color));*/
   background: 
     linear-gradient(135deg, 
-      color-mix(in srgb, #910505, transparent 80%), 
-      #0606cf
+      color-mix(in srgb, #8B2332, transparent 70%), 
+      #1B3A5C
     );
-
-
   background-size: cover;
   z-index: 0;
   border-radius: 0 0 50% 50%;
@@ -1028,10 +1032,10 @@ section,
 # Featured Services Section
 --------------------------------------------------------------*/
 .featured-services {
-  --cyan-color: #0dcaf0;
-  --orange-color: #fd7e14;
-  --teal-color: #20c997;
-  --red-color: #df1529;
+  --cyan-color: #1B3A5C;
+  --orange-color: #D4A017;
+  --teal-color: #7CB342;
+  --red-color: #8B2332;
 }
 
 .featured-services .service-item {

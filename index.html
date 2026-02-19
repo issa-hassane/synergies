@@ -26,6 +26,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/modern-home.css" rel="stylesheet">
 
 
 </head>
@@ -80,7 +81,14 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <!-- <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in"> -->
+      <div class="hero-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+      </div>
+      <div class="hero-grid-overlay"></div>
+      <div class="hero-glow"></div>
 
       <div id="hero-carousel" class="carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
@@ -88,27 +96,39 @@
 
           <div class="carousel-item active">
             <div class="carousel-container">
-              <h2>Bienvenue chez GLOBAL SYNERGIES SOLUTIONS</h2>
-              <p> Votre partenaire de confiance en informatique et Technologie au TCHAD et en AFRIQUE.</p>
-              <a href="#about" class="btn-get-started">En savoir plus</a>
+              <div class="hero-subtitle"><span class="pulse-dot"></span> Innovation Technologique au Tchad</div>
+              <h2>Bienvenue chez <span class="text-gradient">Global Synergies Solutions</span></h2>
+              <p>Votre partenaire de confiance en informatique et technologie au Tchad et en Afrique.</p>
+              <div class="hero-cta">
+                <a href="#about" class="btn-get-started">Decouvrir nos services</a>
+                <a href="contact.html" class="btn-secondary-hero">Nous contacter <i class="bi bi-arrow-right"></i></a>
+              </div>
             </div>
-          </div><!-- End Carousel Item -->
+          </div>
 
           <div class="carousel-item">
             <div class="carousel-container">
-              <h2>Transformez votre Entreprise avec la Technologie</h2>
-              <p>Des solutions adaptées à vos défis pour moderniser vos outils et stimuler votre croissance au Tchad.</p>
-              <a href="#about" class="btn-get-started">Commencez Aujourd'hui</a>
+              <div class="hero-subtitle"><span class="pulse-dot"></span> Transformation Digitale</div>
+              <h2>Transformez votre entreprise avec la <span class="text-gradient">Technologie</span></h2>
+              <p>Des solutions adaptees a vos defis pour moderniser vos outils et stimuler votre croissance.</p>
+              <div class="hero-cta">
+                <a href="#about" class="btn-get-started">Commencez aujourd'hui</a>
+                <a href="services.html" class="btn-secondary-hero">Voir nos solutions <i class="bi bi-arrow-right"></i></a>
+              </div>
             </div>
-          </div><!-- End Carousel Item -->
+          </div>
 
           <div class="carousel-item">
             <div class="carousel-container">
-              <h2>Un Partenaire de Confiance pour Vos Projets Technologiques</h2>
-              <p>Faites confiance à notre expertise pour vous équiper avec le meilleur matériel et des services de qualité.</p>
-              <a href="#about" class="btn-get-started">Parlons de Votre Projet</a>
+              <div class="hero-subtitle"><span class="pulse-dot"></span> Expertise & Fiabilite</div>
+              <h2>Un partenaire de confiance pour vos <span class="text-gradient">Projets Tech</span></h2>
+              <p>Faites confiance a notre expertise pour vous equiper avec le meilleur materiel et des services de qualite.</p>
+              <div class="hero-cta">
+                <a href="contact.html" class="btn-get-started">Parlons de votre projet</a>
+                <a href="produits.html" class="btn-secondary-hero">Voir nos produits <i class="bi bi-arrow-right"></i></a>
+              </div>
             </div>
-          </div><!-- End Carousel Item -->
+          </div>
 
           <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
             <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
@@ -124,6 +144,29 @@
 
       </div>
 
+      <div class="hero-stats">
+        <div class="container">
+          <div class="hero-stats-inner">
+            <div class="stat-item">
+              <span class="stat-number">50+</span>
+              <span class="stat-label">Clients satisfaits</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">120+</span>
+              <span class="stat-label">Projets livres</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">24/7</span>
+              <span class="stat-label">Support technique</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Ans d'experience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section><!-- /Hero Section -->
 
     <!-- Featured Services Section -->
@@ -133,10 +176,10 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item item-cyan position-relative">
               <div class="icon">
-                <i class="bi bi-activity"></i>
+                <i class="bi bi-tools"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
                 <h3>Prolongez la Durée de Vie de Votre Équipement</h3>
@@ -145,10 +188,10 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item item-orange position-relative">
               <div class="icon">
-                <i class="bi bi-broadcast"></i>
+                <i class="bi bi-lightbulb"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
                 <h3>Des Solutions Uniques pour Vos Projets</h3>
@@ -157,10 +200,10 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item item-teal position-relative">
               <div class="icon">
-                <i class="bi bi-easel"></i>
+                <i class="bi bi-pc-display"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
                 <h3>Matériel de Qualité à Votre Portée</h3>
@@ -169,10 +212,10 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-xl-3 col-lg-6 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item item-red position-relative">
               <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
+                <i class="bi bi-headset"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
                 <h3>Support Technique 24/7</h3>
@@ -196,6 +239,10 @@
           <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
             <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+            <div class="about-badge">
+              <span class="badge-number">10+</span>
+              <span class="badge-text">Ans d'Expertise</span>
+            </div>
           </div>
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
             <h3>Votre Expert en Technologie au Tchad.</h3>
@@ -258,11 +305,11 @@
             <p class="fst-italic">
               GLOBAL SYNERGIES SOLUTIONS est dédiée à transformer le paysage technologique au Tchad en apportant des solutions fiables et innovantes, adaptées à vos besoins.
             </p>
-            <p>
-              Points Clés :
-              <p>Confiance et Expertise : Nous garantissons des services de haute qualité pour répondre à vos défis technologiques.</p>
-              <p>Personnalisée : Nous créons des solutions uniques pour les particuliers, entreprises et institutions.</p>
-              <p>Impact Durable : Avec nous, investissez dans un futur technologique prometteur.</p>
+            <ul>
+              <li><i class="bi bi-check"></i><span>Confiance et Expertise : Nous garantissons des services de haute qualité pour répondre à vos défis technologiques.</span></li>
+              <li><i class="bi bi-check"></i><span>Personnalisée : Nous créons des solutions uniques pour les particuliers, entreprises et institutions.</span></li>
+              <li><i class="bi bi-check"></i><span>Impact Durable : Avec nous, investissez dans un futur technologique prometteur.</span></li>
+            </ul>
           </div>
         </div><!-- Features Item -->
 
@@ -358,8 +405,7 @@
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">PISSAY</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
-        
-        Propulsed by PISSAY Inc. Pvt. Ltd.</a></a>
+        Propulsed by PISSAY Inc. Pvt. Ltd.
       </div>
     </div>
 
